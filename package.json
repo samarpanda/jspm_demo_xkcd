@@ -1,0 +1,8 @@
+{
+  "jspm": {
+    "name": "xkcd_comic",
+    "dependencies": {
+      "jsonp": "npm:jsonp@^0.1.0"
+    }
+  }
+}

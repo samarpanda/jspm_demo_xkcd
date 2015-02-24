@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Xkcd Comics</title>
+		<style type="text/css">
+			body{
+				margin: 0;
+			}
+			#xkcd-cont {
+				display: block;
+				margin: 0 auto;
+				width: 780px;
+			}
+			#xkcd-cont a , #xkcd-cont p{
+				display: block;
+				text-align: center;
+			}
+			h1{
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Xkcd Comic</h1>
+		<div id="xkcd-cont"></div>
+		<script type="text/javascript" src="jspm_packages/system.js"></script>
+		<script type="text/javascript" src="config.js"></script>
+		<script>
+			System.import('lib/main');
+		</script>
+	</body>
+</html>
