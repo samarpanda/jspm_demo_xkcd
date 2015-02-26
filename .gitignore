@@ -1,2 +1,3 @@
-_site/
 jspm_packages/
+node_modules/
+_site/
