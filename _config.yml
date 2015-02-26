@@ -2,3 +2,4 @@ name: JSPM & ES6
 markdown: redcarpet
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
+baseurl: /xkcd_comic
